@@ -5,9 +5,41 @@
 }
 
 .Area{
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    min-height: 100vh;
     background-color: #333;
     display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: #fff;
+}
+.savol{
+    width: 60vw;
+    text-align: center;
+}
+
+.javoblar{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.javoblar button{
+    width: 70vw;
+    min-height: 3rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background-color: #333;
+    color: #fff;
+
+}
+
+.javoblar button:active{
+color: red;
 }
