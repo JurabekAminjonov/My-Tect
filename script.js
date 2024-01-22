@@ -44,6 +44,14 @@ let Array = [
     
 ]
 
+let nextBtn = document.querySelector('#nextBtn')
+
+nextBtn.addEventListener('click', ()=>{
+
+    
+
+
+
 let savolObj = Array[Math.floor(Math.random()*4)]
 
 
@@ -87,4 +95,5 @@ button.forEach((button)=>{
         console.log(savolObj.javob)
         console.log(button.innerText)
     })
+})
 })

@@ -44,3 +44,13 @@
 color: red;
 color: #b7dd0b;
 }
+#nextBtn{
+    width: 50vw;
+    height: 4rem;
+    background-color: rgb(72, 177, 46);
+    border: none;
+    margin-top: 5rem;
+    border-radius: 30px;
+    font-size: 3rem;
+    color: #fff;
+}
